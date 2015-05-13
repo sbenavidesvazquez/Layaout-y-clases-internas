@@ -81,12 +81,16 @@ public class Ventana {
     public class Evento implements ActionListener{
         
         public Evento(){
-            JFrame mar=new JFrame();
+            JFrame mar=new JFrame("Ventana Interna");
+            mar.setSize(300, 300);
+            mar.setVisible(true);
+            mar.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            
         }
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            Evento obx= new Evento();
         }
         
     }

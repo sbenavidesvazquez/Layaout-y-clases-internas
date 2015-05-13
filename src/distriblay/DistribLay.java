@@ -18,6 +18,7 @@ public class DistribLay {
         Ventana obx=new Ventana();
         
         obx.AmosarVentana();
+        
     }
     
 }
